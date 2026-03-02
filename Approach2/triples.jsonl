@@ -1,0 +1,60 @@
+{"subject": "http://example.org/medical/Type2Diabetes", "predicate": "http://schema.org/possibleTreatment", "object": "http://example.org/medical/Metformin"}
+{"subject": "http://example.org/medical/Type2Diabetes", "predicate": "http://schema.org/code", "object": "E11"}
+{"subject": "http://example.org/medical/Patient001", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/Patient"}
+{"subject": "http://example.org/medical/Asthma", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/MedicalCondition"}
+{"subject": "http://example.org/medical/Patient002", "predicate": "http://schema.org/drug", "object": "http://example.org/medical/Metformin"}
+{"subject": "http://example.org/medical/Patient003", "predicate": "http://schema.org/gender", "object": "Male"}
+{"subject": "http://example.org/medical/Asthma", "predicate": "http://schema.org/associatedAnatomy", "object": "http://example.org/medical/Lungs"}
+{"subject": "http://example.org/medical/Patient002", "predicate": "http://schema.org/healthCondition", "object": "http://example.org/medical/Type2Diabetes"}
+{"subject": "http://example.org/medical/Patient003", "predicate": "http://schema.org/signOrSymptom", "object": "http://example.org/medical/ShortnessOfBreath"}
+{"subject": "http://example.org/medical/Hypertension", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/MedicalCondition"}
+{"subject": "http://example.org/medical/Patient001", "predicate": "http://schema.org/healthCondition", "object": "http://example.org/medical/Hypertension"}
+{"subject": "http://example.org/medical/Heart", "predicate": "http://schema.org/name", "object": "Heart"}
+{"subject": "http://example.org/medical/Patient001", "predicate": "http://schema.org/drug", "object": "http://example.org/medical/Lisinopril"}
+{"subject": "http://example.org/medical/Patient003", "predicate": "http://xmlns.com/foaf/0.1/name", "object": "Stefan Iliev"}
+{"subject": "http://example.org/medical/Hypertension", "predicate": "http://schema.org/name", "object": "Hypertension"}
+{"subject": "http://example.org/medical/Salbutamol", "predicate": "http://schema.org/mechanismOfAction", "object": "Beta-2 adrenergic agonist"}
+{"subject": "http://example.org/medical/Lisinopril", "predicate": "http://schema.org/name", "object": "Lisinopril"}
+{"subject": "http://example.org/medical/Metformin", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/Drug"}
+{"subject": "http://example.org/medical/Type2Diabetes", "predicate": "http://schema.org/associatedAnatomy", "object": "http://example.org/medical/Pancreas"}
+{"subject": "http://example.org/medical/Metformin", "predicate": "http://schema.org/mechanismOfAction", "object": "Reduces hepatic glucose production"}
+{"subject": "http://example.org/medical/Asthma", "predicate": "http://schema.org/code", "object": "J45"}
+{"subject": "http://example.org/medical/Patient002", "predicate": "http://schema.org/signOrSymptom", "object": "http://example.org/medical/FrequentUrination"}
+{"subject": "http://example.org/medical/Patient002", "predicate": "http://schema.org/birthDate", "object": "2000-07-21"}
+{"subject": "http://example.org/medical/Patient003", "predicate": "http://schema.org/healthCondition", "object": "http://example.org/medical/Asthma"}
+{"subject": "http://example.org/medical/Patient002", "predicate": "http://schema.org/gender", "object": "Female"}
+{"subject": "http://example.org/medical/Patient002", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/Patient"}
+{"subject": "http://example.org/medical/Patient002", "predicate": "http://xmlns.com/foaf/0.1/name", "object": "Elena Dimitrova"}
+{"subject": "http://example.org/medical/Lungs", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/AnatomicalStructure"}
+{"subject": "http://example.org/medical/Pancreas", "predicate": "http://schema.org/name", "object": "Pancreas"}
+{"subject": "http://example.org/medical/Patient001", "predicate": "http://schema.org/signOrSymptom", "object": "http://example.org/medical/Headache"}
+{"subject": "http://example.org/medical/Salbutamol", "predicate": "http://schema.org/activeIngredient", "object": "Albuterol"}
+{"subject": "http://example.org/medical/Lisinopril", "predicate": "http://schema.org/mechanismOfAction", "object": "ACE inhibitor"}
+{"subject": "http://example.org/medical/Patient001", "predicate": "http://schema.org/gender", "object": "Male"}
+{"subject": "http://example.org/medical/Patient003", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/Patient"}
+{"subject": "http://example.org/medical/Metformin", "predicate": "http://schema.org/activeIngredient", "object": "Metformin hydrochloride"}
+{"subject": "http://example.org/medical/Hypertension", "predicate": "http://schema.org/code", "object": "I10"}
+{"subject": "http://example.org/medical/Type2Diabetes", "predicate": "http://schema.org/name", "object": "Type 2 Diabetes"}
+{"subject": "http://example.org/medical/Lisinopril", "predicate": "http://schema.org/activeIngredient", "object": "Lisinopril"}
+{"subject": "http://example.org/medical/Patient001", "predicate": "http://schema.org/birthDate", "object": "1998-03-12"}
+{"subject": "http://example.org/medical/Asthma", "predicate": "http://schema.org/name", "object": "Asthma"}
+{"subject": "http://example.org/medical/Type2Diabetes", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/MedicalCondition"}
+{"subject": "http://example.org/medical/Asthma", "predicate": "http://schema.org/possibleTreatment", "object": "http://example.org/medical/Salbutamol"}
+{"subject": "http://example.org/medical/ShortnessOfBreath", "predicate": "http://schema.org/name", "object": "Shortness of breath"}
+{"subject": "http://example.org/medical/Headache", "predicate": "http://schema.org/name", "object": "Headache"}
+{"subject": "http://example.org/medical/Salbutamol", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/Drug"}
+{"subject": "http://example.org/medical/Pancreas", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/AnatomicalStructure"}
+{"subject": "http://example.org/medical/FrequentUrination", "predicate": "http://schema.org/name", "object": "Frequent urination"}
+{"subject": "http://example.org/medical/Patient001", "predicate": "http://xmlns.com/foaf/0.1/name", "object": "Marko Trajkov"}
+{"subject": "http://example.org/medical/Heart", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/AnatomicalStructure"}
+{"subject": "http://example.org/medical/Salbutamol", "predicate": "http://schema.org/name", "object": "Salbutamol"}
+{"subject": "http://example.org/medical/Hypertension", "predicate": "http://schema.org/possibleTreatment", "object": "http://example.org/medical/Lisinopril"}
+{"subject": "http://example.org/medical/ShortnessOfBreath", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/MedicalSymptom"}
+{"subject": "http://example.org/medical/Patient003", "predicate": "http://schema.org/birthDate", "object": "1995-11-02"}
+{"subject": "http://example.org/medical/Patient003", "predicate": "http://schema.org/drug", "object": "http://example.org/medical/Salbutamol"}
+{"subject": "http://example.org/medical/FrequentUrination", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/MedicalSymptom"}
+{"subject": "http://example.org/medical/Lisinopril", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/Drug"}
+{"subject": "http://example.org/medical/Metformin", "predicate": "http://schema.org/name", "object": "Metformin"}
+{"subject": "http://example.org/medical/Lungs", "predicate": "http://schema.org/name", "object": "Lungs"}
+{"subject": "http://example.org/medical/Headache", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "object": "http://schema.org/MedicalSymptom"}
+{"subject": "http://example.org/medical/Hypertension", "predicate": "http://schema.org/associatedAnatomy", "object": "http://example.org/medical/Heart"}

@@ -1,0 +1,108 @@
+@prefix ex: <http://example.org/medical/> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+############################
+# Diseases
+############################
+
+ex:Hypertension
+    a schema:MedicalCondition ;
+    schema:name "Hypertension" ;
+    schema:code "I10" ;
+    schema:possibleTreatment ex:Lisinopril ;
+    schema:associatedAnatomy ex:Heart .
+
+ex:Type2Diabetes
+    a schema:MedicalCondition ;
+    schema:name "Type 2 Diabetes" ;
+    schema:code "E11" ;
+    schema:possibleTreatment ex:Metformin ;
+    schema:associatedAnatomy ex:Pancreas .
+
+ex:Asthma
+    a schema:MedicalCondition ;
+    schema:name "Asthma" ;
+    schema:code "J45" ;
+    schema:possibleTreatment ex:Salbutamol ;
+    schema:associatedAnatomy ex:Lungs .
+
+############################
+# Symptoms
+############################
+
+ex:Headache a schema:MedicalSymptom ;
+    schema:name "Headache" .
+
+ex:ShortnessOfBreath a schema:MedicalSymptom ;
+    schema:name "Shortness of breath" .
+
+ex:FrequentUrination a schema:MedicalSymptom ;
+    schema:name "Frequent urination" .
+
+############################
+# Drugs
+############################
+
+ex:Lisinopril
+    a schema:Drug ;
+    schema:name "Lisinopril" ;
+    schema:activeIngredient "Lisinopril" ;
+    schema:mechanismOfAction "ACE inhibitor" .
+
+ex:Metformin
+    a schema:Drug ;
+    schema:name "Metformin" ;
+    schema:activeIngredient "Metformin hydrochloride" ;
+    schema:mechanismOfAction "Reduces hepatic glucose production" .
+
+ex:Salbutamol
+    a schema:Drug ;
+    schema:name "Salbutamol" ;
+    schema:activeIngredient "Albuterol" ;
+    schema:mechanismOfAction "Beta-2 adrenergic agonist" .
+
+############################
+# Anatomy
+############################
+
+ex:Heart a schema:AnatomicalStructure ;
+    schema:name "Heart" .
+
+ex:Pancreas a schema:AnatomicalStructure ;
+    schema:name "Pancreas" .
+
+ex:Lungs a schema:AnatomicalStructure ;
+    schema:name "Lungs" .
+
+############################
+# Patients
+############################
+
+ex:Patient001
+    a schema:Patient ;
+    foaf:name "Marko Trajkov" ;
+    schema:birthDate "1998-03-12"^^xsd:date ;
+    schema:gender "Male" ;
+    schema:healthCondition ex:Hypertension ;
+    schema:drug ex:Lisinopril ;
+    schema:signOrSymptom ex:Headache .
+
+ex:Patient002
+    a schema:Patient ;
+    foaf:name "Elena Dimitrova" ;
+    schema:birthDate "2000-07-21"^^xsd:date ;
+    schema:gender "Female" ;
+    schema:healthCondition ex:Type2Diabetes ;
+    schema:drug ex:Metformin ;
+    schema:signOrSymptom ex:FrequentUrination .
+
+ex:Patient003
+    a schema:Patient ;
+    foaf:name "Stefan Iliev" ;
+    schema:birthDate "1995-11-02"^^xsd:date ;
+    schema:gender "Male" ;
+    schema:healthCondition ex:Asthma ;
+    schema:drug ex:Salbutamol ;
+    schema:signOrSymptom ex:ShortnessOfBreath .
