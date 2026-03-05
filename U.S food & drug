@@ -1,0 +1,107 @@
+﻿{
+  "source_url": "https://open.fda.gov/apis/try-the-api/",
+  "api_queries": {
+    "drug_event": "https://api.fda.gov/drug/event.json?limit=1",
+    "food_enforcement": "https://api.fda.gov/food/enforcement.json?search=report_date:[20040101+TO+20131231]&limit=1"
+  },
+  "drug_event_response": {
+    "meta": {
+      "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+      "terms": "https://open.fda.gov/terms/",
+      "license": "https://open.fda.gov/license/",
+      "last_updated": "2026-01-27",
+      "results": {
+        "skip": 0,
+        "limit": 1,
+        "total": 20006989
+      }
+    },
+    "results": [
+      {
+        "safetyreportid": "5801206-7",
+        "transmissiondateformat": "102",
+        "transmissiondate": "20090109",
+        "serious": "1",
+        "seriousnessdeath": "1",
+        "receivedateformat": "102",
+        "receivedate": "20080707",
+        "receiptdateformat": "102",
+        "receiptdate": "20080625",
+        "fulfillexpeditecriteria": "1",
+        "companynumb": "JACAN16471",
+        "primarysource": {
+          "reportercountry": "CANADA",
+          "qualification": "3"
+        },
+        "sender": {
+          "senderorganization": "FDA-Public Use"
+        },
+        "receiver": null,
+        "patient": {
+          "patientonsetage": "26",
+          "patientonsetageunit": "801",
+          "patientsex": "1",
+          "patientdeath": {
+            "patientdeathdateformat": null,
+            "patientdeathdate": null
+          },
+          "reaction": [
+            { "reactionmeddrapt": "DRUG ADMINISTRATION ERROR" },
+            { "reactionmeddrapt": "OVERDOSE" }
+          ],
+          "drug": [
+            {
+              "drugcharacterization": "1",
+              "medicinalproduct": "DURAGESIC-100",
+              "drugauthorizationnumb": "019813",
+              "drugadministrationroute": "041",
+              "drugindication": "DRUG ABUSE"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "food_enforcement_response": {
+    "meta": {
+      "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+      "terms": "https://open.fda.gov/terms/",
+      "license": "https://open.fda.gov/license/",
+      "last_updated": "2026-02-25",
+      "results": {
+        "skip": 0,
+        "limit": 1,
+        "total": 4028
+      }
+    },
+    "results": [
+      {
+        "country": "United States",
+        "city": "Pompano Beach",
+        "address_1": "2300 NW 19th St",
+        "reason_for_recall": "FreshPoint South Florida is recalling sliced fresh yellow onions and salsa products processed using yellow onions sourced from Gills Onions, LLC which were recalled for Listeria monocytogenes.",
+        "address_2": "",
+        "product_quantity": "7 cases",
+        "code_info": "Item # 302940.",
+        "center_classification_date": "20120808",
+        "distribution_pattern": "Products were distributed in South Florida.",
+        "state": "FL",
+        "product_description": "Yellow Onion. Product is labeled in part: \"***FC Salsa Mango\"***Refrigerate at 34 F***\" Item # 302940 FC SALSA MANGO 2/5#. Product is fresh made - Ready To Eat.",
+        "report_date": "20120815",
+        "classification": "Class I",
+        "openfda": {},
+        "recalling_firm": "FreshPoint South Florida",
+        "recall_number": "F-1922-2012",
+        "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+        "product_type": "Food",
+        "event_id": "62750",
+        "termination_date": "20141008",
+        "more_code_info": "",
+        "recall_initiation_date": "20120727",
+        "postal_code": "33069-5227",
+        "voluntary_mandated": "Voluntary: Firm initiated",
+        "status": "Terminated"
+      }
+    ]
+  }
+}
